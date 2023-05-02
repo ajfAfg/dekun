@@ -1,0 +1,25 @@
+{
+  "name": "@ajfafg/dekun",
+  "version": "0.1.0",
+  "description": "Extract variable and function definitions from TypeScript programs",
+  "main": "out/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajfAfg/dekun.git"
+  },
+  "keywords": [
+    "typescript",
+    "testing",
+    "snapshot",
+    "abstract-syntax-tree"
+  ],
+  "author": "ajfAfg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajfAfg/dekun/issues"
+  },
+  "homepage": "https://github.com/ajfAfg/dekun#readme"
+}
