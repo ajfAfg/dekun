@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "Extract variable and function definitions from TypeScript programs",
   "main": "out/index.js",
+  "types": "out/index.d.ts",
   "scripts": {
+    "build": "tsc -p .",
     "test": "jest"
   },
   "repository": {
@@ -21,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/ajfAfg/dekun/issues"
   },
-  "homepage": "https://github.com/ajfAfg/dekun#readme"
+  "homepage": "https://github.com/ajfAfg/dekun#readme",
+  "dependencies": {
+    "typescript": "^5.0.4"
+  }
 }
