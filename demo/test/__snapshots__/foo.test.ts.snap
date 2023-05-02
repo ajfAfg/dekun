@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Demo prod 1`] = `
+"function prod(xs: [
+    number
+]): number {
+    return xs.reduce((x, y) => x * y, 1);
+}"
+`;
+
+exports[`Demo sum 1`] = `
+"export const sum = (xs: [
+    number
+]): number => xs.reduce((x, y) => x + y, 0);"
+`;
