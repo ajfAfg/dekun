@@ -13,10 +13,11 @@
     "url": "git+https://github.com/ajfAfg/dekun.git"
   },
   "keywords": [
-    "typescript",
     "testing",
-    "snapshot",
-    "abstract-syntax-tree"
+    "snapshot-testing",
+    "abstract-syntax-tree",
+    "jest",
+    "typescript"
   ],
   "author": "ajfAfg",
   "license": "MIT",
