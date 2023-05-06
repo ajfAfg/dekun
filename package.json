@@ -1,6 +1,6 @@
 {
   "name": "@ajfafg/dekun",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Extract variable and function definitions from TypeScript programs",
   "main": "out/index.js",
   "types": "out/index.d.ts",
