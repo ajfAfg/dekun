@@ -33,6 +33,10 @@ describe("Demo", () => {
 });
 ```
 
+## **⚠️ CAUTION ⚠️**
+
+I was given the information that the `toString` method can also be used to string a function definition (when I enter a function in the Node.js REPL, I get something like `[Function (anonymous)]`, which I assumed was the result of implicitly evaluating `toString` the function). In this use case, it is more convenient to perform snapshot testing on a string obtained by `toString` method and automatically formatted by an existing formatter.
+
 ## Motivation
 
 In some cases, such as wrapper functions, a function definition immediately shows that the function works as expected. In such cases, the function can be considered correct enough as long as it is ensured that **the function definition is not unintentionally modified**. As the concept of the testing pyramid suggests, testing should be done while considering cost-effectiveness, and I also believe that testing methods should be selected according to what we want to ensure. When the property to be ensured are simple, as in this case, I want to test more lightly than conventional testing methods such as sample-based testing.
@@ -84,7 +88,9 @@ function foo() {
 }
 
 // Second
-function foo() {return 1;}
+function foo() {
+  return 1;
+}
 ```
 
 <!-- TODO: "Second" のプログラムが自動フォーマットされていないか記事を公開する前に確認する（`function foo() {return 1;}` が正しい） -->
