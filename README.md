@@ -2,7 +2,7 @@
 
 A Library in TypeScript that provides functions to return an AST string of a specified variable definition or function definition from a specified file.
 
-[本ライブラリを用いたテスト手法について書いた日本語の記事](https://zenn.dev/arjef/articles/snapshot-testing-for-function)
+[本ライブラリを用いたテスト手法について書いた日本語の記事はこちら](https://zenn.dev/arjef/articles/snapshot-testing-of-function-definitions)
 
 ## Use case
 
@@ -84,10 +84,10 @@ function foo() {
 }
 
 // Second
-function foo() {
-  return 1;
-}
+function foo() {return 1;}
 ```
+
+<!-- TODO: "Second" のプログラムが自動フォーマットされていないか記事を公開する前に確認する（`function foo() {return 1;}` が正しい） -->
 
 Currently, only minimal functionality is implemented in order to verity the acceptance of the "snapshot testing of function definitions" method in a PoC-like manner. I would appreciate your feedback to improve the functionality.
 
